@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tony</title>
+  
+  <subtitle>黑客与画家</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://liuquanliang520.github.io/"/>
+  <updated>2020-07-07T06:22:28.067Z</updated>
+  <id>https://liuquanliang520.github.io/</id>
+  
+  <author>
+    <name>Tony</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《如何阅读一本书》</title>
+    <link href="https://liuquanliang520.github.io/2020/07/07/%E8%AF%BB%E4%B9%A6/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6/"/>
+    <id>https://liuquanliang520.github.io/2020/07/07/%E8%AF%BB%E4%B9%A6/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6/</id>
+    <published>2020-07-07T05:45:01.000Z</published>
+    <updated>2020-07-07T06:22:28.067Z</updated>
+    
+    <content type="html"><![CDATA[<p>继上一次买书是在2020年6月6日，时隔一个月再入手一本书《如何阅读一本书》</p><p>这本书籍，自19年已经加入书架，迟迟没有下单购买。</p><p>记录一下，待读完之后分享读后感。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;继上一次买书是在2020年6月6日，时隔一个月再入手一本书《如何阅读一本书》&lt;/p&gt;
+&lt;p&gt;这本书籍，自19年已经加入书架，迟迟没有下单购买。&lt;/p&gt;
+&lt;p&gt;记录一下，待读完之后分享读后感。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="读书" scheme="https://liuquanliang520.github.io/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+      <category term="如何阅读一本书" scheme="https://liuquanliang520.github.io/tags/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6/"/>
+    
+      <category term="阅读" scheme="https://liuquanliang520.github.io/tags/%E9%98%85%E8%AF%BB/"/>
+    
+      <category term="书" scheme="https://liuquanliang520.github.io/tags/%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随手记-hexo添加分类&amp;标签</title>
+    <link href="https://liuquanliang520.github.io/2020/07/06/%E9%9A%8F%E6%89%8B%E8%AE%B0-hexo%E5%88%86%E7%B1%BB%E6%A0%87%E7%AD%BE/"/>
+    <id>https://liuquanliang520.github.io/2020/07/06/%E9%9A%8F%E6%89%8B%E8%AE%B0-hexo%E5%88%86%E7%B1%BB%E6%A0%87%E7%AD%BE/</id>
+    <published>2020-07-06T07:45:01.000Z</published>
+    <updated>2020-07-06T07:47:50.272Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="添加分类"><a href="#添加分类" class="headerlink" title="添加分类"></a>添加分类</h2><p>添加</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure><p>创建成功提示如下信息</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Created: ~&#x2F;Tony&#x2F;ly&#x2F;unknow&#x2F;liuquanliang520.github.io&#x2F;source&#x2F;categories&#x2F;index.md</span><br></pre></td></tr></table></figure><p>修改一下index.md</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2020-07-06 14:45:01</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>在文章开头加入:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: tmux使用技巧</span><br><span class="line">date: 2020-7-5</span><br><span class="line">categories:</span><br><span class="line">- 5分钟系列</span><br></pre></td></tr></table></figure><h2 id="添加标签"><a href="#添加标签" class="headerlink" title="添加标签"></a>添加标签</h2><p>添加</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure><p>创建成功提示如下信息：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Created: ~&#x2F;Tony&#x2F;ly&#x2F;unknow&#x2F;liuquanliang520.github.io&#x2F;source&#x2F;tags&#x2F;index.md</span><br></pre></td></tr></table></figure><p>修改一下index.md</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2020-07-06 14:49:00</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>在文章开头加入:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">title: tmux使用技巧</span><br><span class="line">date: 2020-7-5</span><br><span class="line">categories:</span><br><span class="line">- 5分钟系列</span><br><span class="line">tags:</span><br><span class="line">- tmux</span><br><span class="line">- linux</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;添加分类&quot;&gt;&lt;a href=&quot;#添加分类&quot; class=&quot;headerlink&quot; title=&quot;添加分类&quot;&gt;&lt;/a&gt;添加分类&lt;/h2&gt;&lt;p&gt;添加&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gu
+      
+    
+    </summary>
+    
+    
+      <category term="随手记" scheme="https://liuquanliang520.github.io/categories/%E9%9A%8F%E6%89%8B%E8%AE%B0/"/>
+    
+    
+      <category term="分类" scheme="https://liuquanliang520.github.io/tags/%E5%88%86%E7%B1%BB/"/>
+    
+      <category term="标签" scheme="https://liuquanliang520.github.io/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随手记-brew切换源</title>
+    <link href="https://liuquanliang520.github.io/2020/07/06/%E9%9A%8F%E6%89%8B%E8%AE%B0-brew%E5%88%87%E6%8D%A2%E6%BA%90/"/>
+    <id>https://liuquanliang520.github.io/2020/07/06/%E9%9A%8F%E6%89%8B%E8%AE%B0-brew%E5%88%87%E6%8D%A2%E6%BA%90/</id>
+    <published>2020-07-06T05:45:01.000Z</published>
+    <updated>2020-07-06T07:45:34.326Z</updated>
+    
+    <content type="html"><![CDATA[<p>Homebrew是一款包管理器，支持macOS linux。有四个部分组成: brew、homebrew-core 、homebrew-cask、homebrew-bottles。<br> name | description<br>—|—<br>brew | Homebrew源代码仓库<br>homebrew-core | Homebrew核心源<br>homebrew-cask | 提供macOS应用和大型二进制文件的安装<br>homebrew-bottles | 预编译二进制软件包</p><p>本文介绍brew如何加速访问。</p><h2 id="加速源—国内源"><a href="#加速源—国内源" class="headerlink" title="加速源—国内源"></a>加速源—国内源</h2><h3 id="清华大学"><a href="#清华大学" class="headerlink" title="清华大学"></a>清华大学</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 替换brew.git:</span></span><br><span class="line"><span class="built_in">cd</span> <span class="string">"<span class="variable">$(brew --repo)</span>"</span></span><br><span class="line">git remote <span class="built_in">set</span>-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git</span><br><span class="line"></span><br><span class="line"><span class="comment"># 替换homebrew-core.git:</span></span><br><span class="line"><span class="built_in">cd</span> <span class="string">"<span class="variable">$(brew --repo)</span>/Library/Taps/homebrew/homebrew-core"</span></span><br><span class="line">git remote <span class="built_in">set</span>-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git</span><br><span class="line"></span><br><span class="line"><span class="comment"># 替换homebrew-bottles:</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles'</span> &gt;&gt; ~/.bash_profile</span><br><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br><span class="line"></span><br><span class="line"><span class="comment"># 应用生效:</span></span><br><span class="line">brew update</span><br></pre></td></tr></table></figure><h2 id="恢复出场设置—官方源"><a href="#恢复出场设置—官方源" class="headerlink" title="恢复出场设置—官方源"></a>恢复出场设置—官方源</h2><h3 id="1、重置brew-git"><a href="#1、重置brew-git" class="headerlink" title="1、重置brew.git"></a>1、重置brew.git</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> <span class="string">"<span class="variable">$(brew --repo)</span>"</span></span><br><span class="line">$ git remote <span class="built_in">set</span>-url origin https://github.com/Homebrew/brew.git</span><br></pre></td></tr></table></figure><h3 id="2、重置homebrew-core-git"><a href="#2、重置homebrew-core-git" class="headerlink" title="2、重置homebrew-core.git"></a>2、重置homebrew-core.git</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> <span class="string">"<span class="variable">$(brew --repo)</span>/Library/Taps/homebrew/homebrew-core"</span></span><br><span class="line">git remote <span class="built_in">set</span>-url origin https://github.com/Homebrew/homebrew-core.git</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Homebrew是一款包管理器，支持macOS linux。有四个部分组成: brew、homebrew-core 、homebrew-cask、homebrew-bottles。&lt;br&gt; name | description&lt;br&gt;—|—&lt;br&gt;brew | Homebr
+      
+    
+    </summary>
+    
+    
+      <category term="随手记" scheme="https://liuquanliang520.github.io/categories/%E9%9A%8F%E6%89%8B%E8%AE%B0/"/>
+    
+    
+      <category term="brew" scheme="https://liuquanliang520.github.io/tags/brew/"/>
+    
+      <category term="macOS" scheme="https://liuquanliang520.github.io/tags/macOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tmux使用技巧</title>
+    <link href="https://liuquanliang520.github.io/2020/07/05/tmux%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    <id>https://liuquanliang520.github.io/2020/07/05/tmux%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</id>
+    <published>2020-07-04T16:00:00.000Z</published>
+    <updated>2020-07-06T07:01:06.231Z</updated>
+    
+    <content type="html"><![CDATA[<p>窗口管理之利器—tmux，好处很多，不再重复叙述，简单描述几个点。<br><strong>如何开始？跟随本文5分钟体验tmux带来快乐。</strong></p><ul><li>分屏，默认直接进入之前路径。</li><li>会话共享，多人进入同一台机器，共享操作画面。</li><li>维持状态，长时间断开连接，再进入时，还可以继续工作。</li></ul><h3 id="安装tmux"><a href="#安装tmux" class="headerlink" title="安装tmux"></a>安装tmux</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Centos</span></span><br><span class="line">yum install tmux</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> mac</span></span><br><span class="line">brew install tmux</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> Ubuntu</span></span><br><span class="line">apt-get install tmux</span><br></pre></td></tr></table></figure><h3 id="进入tmux"><a href="#进入tmux" class="headerlink" title="进入tmux"></a>进入tmux</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">执行下面命令会创建一个会话</span><br><span class="line"></span><br><span class="line">tmux 创建一个没有名称的会话</span><br><span class="line">或者 tmux new -t xxx  创建一个名称为xxx的会话</span><br></pre></td></tr></table></figure><h3 id="断开tmux"><a href="#断开tmux" class="headerlink" title="断开tmux"></a>断开tmux</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Ctrl+b (前面两个键一起按，简称为前缀)，再按b。</span><br><span class="line"></span><br><span class="line">（Ctrl+b）+ d</span><br><span class="line"></span><br><span class="line">一定要记住前缀，后面我们会大篇幅使用到前缀（Ctrl+b）</span><br></pre></td></tr></table></figure><h3 id="再次进入之前的会话"><a href="#再次进入之前的会话" class="headerlink" title="再次进入之前的会话"></a>再次进入之前的会话</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tmux a 进入一个会话</span><br><span class="line">或者 tmux a -t xxx 进入到名称为xxx的会话</span><br></pre></td></tr></table></figure><p>当我们创建一个会话时候，<br>默认进入一个窗口（如何切换窗口，请看后文。），<br>窗口中有一个默认面板。</p><p><strong>会话–窗口–面板</strong></p><h3 id="面板之-（如何分屏，关闭分屏，切换选中分屏）"><a href="#面板之-（如何分屏，关闭分屏，切换选中分屏）" class="headerlink" title="面板之 （如何分屏，关闭分屏，切换选中分屏）"></a>面板之 （如何分屏，关闭分屏，切换选中分屏）</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">（Ctrl+b）+ " 上下一分为二，下侧新建面板</span><br><span class="line">（Ctrl+b）+ % 左右一分为二，右侧新建面板</span><br><span class="line">（Ctrl+b）+ x 关闭当前面板，会有y/n提示 y确认关闭</span><br><span class="line">（Ctrl+b）+ 方向键 选择面板</span><br></pre></td></tr></table></figure><h3 id="窗口之-（创建-关闭-选择）"><a href="#窗口之-（创建-关闭-选择）" class="headerlink" title="窗口之 （创建 关闭 选择）"></a>窗口之 （创建 关闭 选择）</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">（Ctrl+b）+ c 新建窗口</span><br><span class="line">（Ctrl+b）+ &amp; 关闭窗口，会有y/n提示，y确认关闭</span><br><span class="line">（Ctrl+b）+ w 选择窗口</span><br></pre></td></tr></table></figure><h3 id="会话之-（创建-查看-进入）"><a href="#会话之-（创建-查看-进入）" class="headerlink" title="会话之 （创建 查看 进入）"></a>会话之 （创建 查看 进入）</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tmux 或者 tmux new -t xxx 创建</span><br><span class="line">tmux ls 查看</span><br><span class="line">tmux a 进入默认</span><br><span class="line">tmux a -t xxx 进入</span><br><span class="line">（Ctrl+b）+ s 在面板中切换会话</span><br></pre></td></tr></table></figure><p>以上是tmux使用超高频使用的命令。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;窗口管理之利器—tmux，好处很多，不再重复叙述，简单描述几个点。&lt;br&gt;&lt;strong&gt;如何开始？跟随本文5分钟体验tmux带来快乐。&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;分屏，默认直接进入之前路径。&lt;/li&gt;
+&lt;li&gt;会话共享，多人进入同一台机器，共享操作画面。
+      
+    
+    </summary>
+    
+    
+      <category term="5分钟系列" scheme="https://liuquanliang520.github.io/categories/5%E5%88%86%E9%92%9F%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="tmux" scheme="https://liuquanliang520.github.io/tags/tmux/"/>
+    
+      <category term="linux" scheme="https://liuquanliang520.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://liuquanliang520.github.io/2020/06/28/hello-world/"/>
+    <id>https://liuquanliang520.github.io/2020/06/28/hello-world/</id>
+    <published>2020-06-28T04:12:57.000Z</published>
+    <updated>2020-07-06T07:00:13.856Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
